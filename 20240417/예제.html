@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
 </head>
-    <body> 
+    <body>  
+        <fieldset>  
+                        <legend>피자 사이즈 </legend>  
+                        <br> 
+    <form> 
+                <input type="radio" name="size" value="Small" >Small
+            <br> </br> </div>  
+                <input type="radio" name="size" value="Medium">Medium
+                <br></br>  
+                <input type="radio" name="size" value="Large">Large    
+            <br>  </br>  
+    </form>  
+        </fieldset>      
+              <br>
+               
+              
+                <p> 고객명 :<input/></p>  
+                <p> 전화번호 : <input/></p>   
+                <p> email: <input type="email"/></p>  
 
-        
-        <fieldset> 
-            <legend>피자 사이즈 </legend>  
+                <br> 
 
-            <form action="proc_form.jsp">
-                <label for="male">스몰</label>
-                <input type="radio" name="gender" id="male" value="male"><br>
-                <label for="female">라지</label>
-                <input type="radio" name="gender" id="female" value="female"><br>
-                <input type="submit" value="제출">
-            
-                <label for="male">엑스라지</label>
-                <input type="radio" name="gender" id="male" value="male"><br>
-            </form>
-            
-                <div>이름 :<input/></div> 
-                <p> 나이 : <input/></p>
-                <p> 선호하는 것. :<range></range> <input/></p>
-<p> 좋아하는 숫자 : <input type="range"/> </p>
-<p> 좋아하는 색깔 : <input type="color"/> </p>
-<p> 날짜 입력 : <input type="datetime-local"/></p>
-<p> 월 입력 : <input type="month"/></p>
-<p> 주차 입력 : <input type="week"/></p>
-<p> email: <input type="email"/></p>
-<p>password: <input type="password"/></p>
-<p>마케팅 수신 동의 : <input type="checkbox"></p> 
- </fieldset>   </b>
-<p>확인 : <input type="button"value="임시 저장 "/></p>
-<p>제출 : <input type="submit" value="전송"></p>
+                <fieldset> <legend>토핑 선택</legend> <br> 
+                <input type="radio" name="토핑" value="베이컨" >Small
+                    <br></div> <br> 
+                <input type="radio" name="토핑" value="치즈">Medium
+                    <br> <br> 
+                <input type="radio" name="토핑" value="양파">Large    
+                    <br> <br> 
+                <input type="radio" name="토핑" value="버섯">Large    
+                    <br> <br>  
+                
+                
+                </fieldset>
 
-     <form action="proc_form.jsp">
-   
-        
+
+
+
+
+
+<p> 희망 배송 시간 : <input type="time" name="time"><br>
+<p>  배송시 요청사항  고객의 의견<br/><br/>
+    <textarea name = "feedback" rows="5" cols="50"></textarea><form name="input" action="getfeedback.jsp" method="get">
+ <br/> 
+ <p>확인 : <input type="button"value="임시 저장 "/></p>
+ <p>제출 : <input type="submit" value="전송"></p>
  
-        <input type="submit" value="다음"/>
-
-    </body>
-</html> 
-</form>
